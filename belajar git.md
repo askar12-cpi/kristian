@@ -45,13 +45,14 @@
 ## Konfigurasi Git Lokal:
    - Buka git di laptop/komputer anda.
    - Jalankan perintah berikut untuk mengatur identitas Anda:
-    ~~~git
+~~~git
      git config --global user.name "Nama Anda"
      git config --global user.email "email@example.com"
- ~~~
+     ~~~
 
     Note: untuk melihat apakah sudah terhubung konfigurasi git nya silakan ketik 
          git config --list
+
  contohnya: 
  
  ![](Asset/2.png)
