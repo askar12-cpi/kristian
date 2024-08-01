@@ -54,8 +54,8 @@ git config --global user.email "email@example.com"
  git config --list
 
  contohnya: 
- 
  ![](Asset/2.png)
+ 
  
 ## Inisialisasi Git Lokal:
 ~~~sheel
@@ -85,8 +85,6 @@ contohnya:
 contohnya:
 ![](Asset/5.png)
 
-
-
 # GIT STATUS
 
 >[!Penjelasan]
@@ -101,6 +99,8 @@ Dengan menggunakan `git status`, Kita dapat melihat status dari repository Kita,
 
 
 Berikut Hasilnya :
+![](Asset/16.png)
+
 # GIT PUSH ORIGIN (MASTER)
 
 ![](Asset/6.png)
