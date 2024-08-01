@@ -1,30 +1,46 @@
 # Instalasi Git Bash
 ## 1.download Git pada browser ketik 'git-scm'
-![[git1.jpeg]]
+![](Asset/14.png)
+
+
+
 ## 2.Lalu klik Git Hub yang telah di instal
 
 ## 3.Lalu akan muncul tampilan seperti gambar
-![[git2.jpeg]]
+![](Asset/7.jpeg)
+
 
 ## 4.Maka klik 'next' terus hingga mendapatkan tampilan seperti gambar
-![[git3.jpeg]]
+![](Asset/17.png)
+
+
 # Login Akun Github
 1. Buka aplikasi github di browser 
 2. Lalu lakukan sign up pada github
-![][login2.png]
-4. Jika sudah memiliki akun langsung masukkan password dan username yang ada
-![][login3.png]
-6. Jika tidak memiliki akun klik tambahkan akun
-![][login1.png]
-8. Setelah buat akun maka akan tampil seperti gambar![][login0.png]
+![](Asset/11.png)
+
+3. Jika sudah memiliki akun langsung masukkan password dan username yang ada
+![](Asset/12.png)
+
+4. Jika tidak memiliki akun klik tambahkan akun
+![](Asset/10.png)
+
+5. Setelah buat akun maka akan tampil seperti gambar
+  ![](Asset/9.png)
+  
+  
 
 # Langkah - Langkah
 ## Buat Repositori GitHub Baru:
    - Login ke akun GitHub Anda.
    - Klik tombol "New" untuk membuat repositori baru.
-   ![][git12.png]
+    ![](Asset/8.png)
+    
+     
    - Berikan nama repositori, pilih apakah akan bersifat publik atau privat, lalu klik "Create repository".
-   ![][git13.png]
+   ![](Asset/1.png)
+   
+   
 
 ## Konfigurasi Git Lokal:
    - Buka git di laptop/komputer anda.
@@ -38,16 +54,15 @@
          git config --list
  contohnya: 
  
- ![][usn.png]
-![][email.png]
-
+ ![](Asset/2.png)
+ 
 ## Inisialisasi Git Lokal:
    -  Buat direktori baru untuk proyek Anda dan navigasikan ke direktori tersebut menggunakan Git bash. Kemudian, inisialisasi Git di direktori tersebut dengan menjalankan perintah:
     ~~~ 
      git init
 ~~~
  contohnya:
- ![][init.png]
+ ![](Asset/3.png)
  
 ## Hubungkan ke Repositori GitHub:
 
@@ -57,8 +72,9 @@
    ~~~
    Ganti username dan nama-repository dengan nama pengguna GitHub Anda dan nama repositori yang Anda buat.kalo dah ada tulisan (master),berarti sudah terhubung ke repositori Githubnya
 contohnya:
+![](Asset/4.png)
 
-![][connect.png]
+
 ## Tambahkan file ke repositori: 
    - Perintah ini akan menambahkan semua file di direktori saat ini ke repositori.
    - Tambahkan file yang ingin Anda simpan di repositori Git dengan menjalankan perintah:
@@ -66,8 +82,7 @@ contohnya:
      git add 
 ~~~
 contohnya:
-
-![][add.png]
+![](Asset/5.png)
 
 # GIT STATUS
 
@@ -82,10 +97,10 @@ Dengan menggunakan `git status`, Kita dapat melihat status dari repository Kita,
 
 
 
-Berikut Hasilnya :![][push.png]
+Berikut Hasilnya :
 # GIT PUSH ORIGIN (MASTER)
 
-![][gpo.png]
+![](Asset/6.png)
 
 >[!Penjelasan]
 >`git push origin master` digunakan dalam Git untuk mengunggah (push) perubahan yang ada di branch `master` pada repository lokal ke branch `master` di remote repository yang disebut `origin`.
@@ -114,7 +129,9 @@ Jika Benar, Langkah Selanjutnya kita menggunakan perintah `git status` membantu 
 
 Perintah `ls` sangat fleksibel dan memiliki banyak opsi lain yang bisa digunakan untuk mengatur tampilan daftar isi direktori sesuai dengan kebutuhan pengguna.
 
-Berikut Hasilnya :![][ls.png]
+Berikut Hasilnya :
+![](Asset/13.png)
+
 
 # CD 
 
@@ -127,7 +144,9 @@ Berikut Hasilnya :![][ls.png]
 
 Dengan menggunakan perintah `cd` di Git Bash, Kita dapat dengan mudah menavigasi melalui berbagai direktori dalam sistem file Kita. Ini sangat berguna untuk mengelola proyek, mengakses file, dan menja lankan skrip atau program di lokasi yang berbeda.
 
-Berikut Hasilnya :![][cd.png]
+Berikut Hasilnya :
+![](Asset/15.png)
+
 
 ### Langkah-langkah yang Dijalankan
 
@@ -135,27 +154,17 @@ Berikut Hasilnya :![][cd.png]
 `cd d:`
 - **Penjelasan**: Perintah ini digunakan untuk berpindah ke drive `D:` di komputer Kita.
 
-- **Output**:
-`ASUS@Fahryy MINGW64 /d`
-
 2. **Pindah ke direktori `obsidian` di dalam drive `D:`**
 
 `cd obsidian`
 
 - **Penjelasan**: Perintah ini digunakan untuk berpindah ke direktori `obsidian` yang berada di dalam drive `D:`.
 
-- **Output**:
-- `ASUS@Fahryy MINGW64 /d/obsidian`
-
 3. **Pindah ke direktori `BELAJAR_GITHUB` di dalam direktori `obsidian`**
 
 `cd BELAJAR_GITHUB`
 
 - **Penjelasan**: Perintah ini digunakan untuk berpindah ke direktori `BELAJAR_GITHUB` yang berada di dalam direktori `obsidian`.
-
-- **Output**:
-
-`ASUS@Fahryy MINGW64 /d/obsidian/BELAJAR_GITHUB`
 ### Keseluruhan Proses
 
 - **Navigasi Awal:**
