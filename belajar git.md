@@ -79,10 +79,11 @@ contohnya:
 ## Tambahkan file ke repositori: 
    - Perintah ini akan menambahkan semua file di direktori saat ini ke repositori.
    - Tambahkan file yang ingin Anda simpan di repositori Git dengan menjalankan perintah:
+   ~~~sheel
+   git add .
    ~~~
-     git add 
-~~~
 contohnya:
+
 ![](Asset/5.png)
 
 # GIT STATUS
